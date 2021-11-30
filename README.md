@@ -1,11 +1,17 @@
 # Work Day Scheduler 
 
 ## About
+A simple calendar application that allows a busy employee or student to use daily. With the capability to add important events and manage time effectively.
 
-### link to URl
+## Uses:
+* HTML
+* CSS
+* jQuery
 
-### screenshots of URL
+### Link to URl
 
-### Contribution
+### Screenshots of URL
+
+#### Contribution
 Made with ❤️ by Alexys
 
