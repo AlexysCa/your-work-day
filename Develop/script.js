@@ -92,5 +92,4 @@ $(".saveBtn").one("click", function(){
     // console.log(hourNow);
     localStorage.setItem(hourNow, JSON.stringify(userInput));
 })
-
-})
+}) 
