@@ -17,4 +17,18 @@ var sixPm = $("#6pm");
 // saving text events here
 function saveEvent() {
 
+var saveEight = JSON.parse(localStorage.getItem("8:00 am"))
+eightAm.val(saveEight);
+
 }
+
+$(document).ready(function(){
+    saveEvent()
+
+// buttons to save to local storage
+$(".saveBtn").one("click", function(){
+    var userInput = $(this).siblings(".form");
+    console.log(userInput);
+})
+
+})
