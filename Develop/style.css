@@ -5,12 +5,12 @@ body {
 }
 
 textarea{
-  background: transparent;
+  background: yellow;
   border: none;
   resize: none;
   color: #000000;
-  border-left: 1px solid black;
   padding: 10px;
+  flex: auto;
 }
 
 .jumbotron {
@@ -40,6 +40,12 @@ textarea{
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  padding: 10px 10px 10px 10px;
+  margin-top: 10px;;
+}
+
+.double-hour {
+  padding-right: 1px;
 }
 
 .past {
