@@ -67,8 +67,8 @@ function timeBackground () {
 $(".form").each(function(){
     var timeColor = parseInt($(this).attr("id"));
     hour = parseInt(hour);
-    console.log(timeColor);
-    console.log(hour);
+    // console.log(timeColor);
+    // console.log(hour);
         if (hour > timeColor) {
             $(this).addClass("past");
         } else if (hour < timeColor) {
@@ -80,9 +80,11 @@ $(".form").each(function(){
 }
 
 
+
 $(document).ready(function(){
     saveEvent()
     timeBackground()
+   
 
 // buttons to save to local storage
 $(".saveBtn").one("click", function(){
@@ -91,5 +93,6 @@ $(".saveBtn").one("click", function(){
     var hourNow = $(this).siblings(".description").text().trim();
     // console.log(hourNow);
     localStorage.setItem(hourNow, JSON.stringify(userInput));
+   
 })
 }) 
